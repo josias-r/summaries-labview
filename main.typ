@@ -36,9 +36,11 @@
 }
 
 #let section_01 = include "sections/01_introduction.typ";
+#let section_02 = include "sections/02_sampling.typ";
 
 #columns(4, gutter: 0pt)[
   #stack(
     section_01,
+    section_02,
   )
 ]
